@@ -14,9 +14,16 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         paintedwidget.cpp \
-    painterantialiasing.cpp
+    painterantialiasing.cpp \
+    qpainterpath_dome_c.cpp \
+    backgroundpicture_demo.cpp
 
 HEADERS  += paintedwidget.h \
-    painterantialiasing.h
+    painterantialiasing.h \
+    qpainterpath_dome_c.h \
+    backgroundpicture_demo.h
 
 FORMS +=
+
+RESOURCES += \
+    image.qrc
